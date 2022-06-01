@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- CSS Link-->
+    <link rel="stylesheet" type="text/css" href="calculator.css" media="screen" />
+    <!-- Font Link-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Palette+Mosaic&display=swap" rel="stylesheet">
+</head>
+
+<!-- SUMMARY-->
+<!-- -->
+<!-- Translation -> bottom = "fundo"-->
+<!-- -->
+<!-- BUTTON : C = Delete all-->
+<!-- BUTTON : ← = Delete last("<" in tutorial video)-->
+<!-- AND SIMPLE OPERATIONS OF A CALCULATOR-->
+
+
+<body>
+    <div class="bottom">
+        <div class="top">
+            <h1 class="calcname">Ronald Chaves</h1>
+            <div class="btnclass">
+                <a href="../MainPage/mainpage.html">
+                    <input class="btnexit" type="button" value="BACK" />
+                </a>
+            </div>
+        </div>
+        <div class="manual">
+            <h1 style="text-align: center;">Instructions</h1>
+            <p class="text">
+                <div class="inst-div">• The ' * ' is equals to MULTIPLICATION;<br><br></div>
+                <div class="inst-div">• The ' / ' is equals to DIVISION;<br><br></div>
+                <div class="inst-div">
+                    • If more than ONE operation is required,
+                    they will have an order of execution,
+                    FIRST: ' ÷ ' and ' x ', SECOND: ' - ' and ' + ' ;
+                </div>
+            </p>
+        </div>
+        <div class="calculator">
+            <h1>Calculator</h1>
+            <p id="result" class="text"></p>
+            <table>
+                <tr>
+                    <td><button class="button" onclick="insert(' + ')">+</button></td>
+                    <td><button class="button" onclick="insert(' - ')">-</button></td>
+                    <td><button class="button" onclick="insert(' * ')">x</button></td>
+                    <td><button class="button" onclick="insert(' / ')">÷</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" onclick="insert('7')">7</button></td>
+                    <td><button class="button" onclick="insert('8')">8</button></td>
+                    <td><button class="button" onclick="insert('9')">9</button></td>
+                    <td><button class="button" onclick="cleanlast()">←</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" onclick="insert('4')">4</button></td>
+                    <td><button class="button" onclick="insert('5')">5</button></td>
+                    <td><button class="button" onclick="insert('6')">6</button></td>
+                    <td><button class="button" onclick="clean()">C</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" onclick="insert('1')">1</button></td>
+                    <td><button class="button" onclick="insert('2')">2</button></td>
+                    <td><button class="button" onclick="insert('3')">3</button></td>
+                    <td rowspan="2"><button class="button" style="height: 106px;" onclick="calculate()">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="button" style="width: 106px;" onclick="insert('0')" ">0</button></td>
+                    <td><button class=" button" onclick="insert('.')">.</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer class="footer">
+        <div>Made By @RonaldChaves</div>
+        <a href="https://www.youtube.com/channel/UCJADLe2g-aV--98RW-vucRw" target="_blank">
+            <img class="icon" src="yt.jpeg" alt="yt">
+        </a>
+        <a href="https://www.facebook.com/ronald.chavesoliveira" target="_blank">
+            <img class="icon" src="face.jpeg" alt="face">
+        </a>
+        <a href="https://instagram.com/r.chvss?utm_medium=copy_link" target="_blank">
+            <img class="icon" src="insta.jpeg" alt="insta">
+        </a>
+    </footer>
+    <!-- JavaScript Link-->
+    <script type="text/javascript" src="js/calculator.js"></script>
+</body>
+
+</html>

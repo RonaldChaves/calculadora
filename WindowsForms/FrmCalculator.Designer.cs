@@ -1,0 +1,253 @@
+﻿namespace WindowsForms
+{
+    partial class FrmCalculator
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCalculator));
+            this.TxtResult = new System.Windows.Forms.TextBox();
+            this.LblOperation = new System.Windows.Forms.Label();
+            this.BtnOne = new System.Windows.Forms.Button();
+            this.BtnTwo = new System.Windows.Forms.Button();
+            this.BtnThree = new System.Windows.Forms.Button();
+            this.BtnFour = new System.Windows.Forms.Button();
+            this.BtnFive = new System.Windows.Forms.Button();
+            this.BtnSix = new System.Windows.Forms.Button();
+            this.BtnSeven = new System.Windows.Forms.Button();
+            this.BtnEight = new System.Windows.Forms.Button();
+            this.BtnNine = new System.Windows.Forms.Button();
+            this.BtnZero = new System.Windows.Forms.Button();
+            this.BtnPoint = new System.Windows.Forms.Button();
+            this.BtnDiv = new System.Windows.Forms.Button();
+            this.BtnMult = new System.Windows.Forms.Button();
+            this.BtnSub = new System.Windows.Forms.Button();
+            this.BtnSum = new System.Windows.Forms.Button();
+            this.BtnEqual = new System.Windows.Forms.Button();
+            this.BtnC = new System.Windows.Forms.Button();
+            this.BtnCE = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // TxtResult
+            // 
+            resources.ApplyResources(this.TxtResult, "TxtResult");
+            this.TxtResult.Name = "TxtResult";
+            this.TxtResult.TextChanged += new System.EventHandler(this.TxtResult_TextChanged);
+            // 
+            // LblOperation
+            // 
+            resources.ApplyResources(this.LblOperation, "LblOperation");
+            this.LblOperation.BackColor = System.Drawing.SystemColors.Control;
+            this.LblOperation.Name = "LblOperation";
+            this.LblOperation.Click += new System.EventHandler(this.LblOperation_Click);
+            // 
+            // BtnOne
+            // 
+            resources.ApplyResources(this.BtnOne, "BtnOne");
+            this.BtnOne.Name = "BtnOne";
+            this.BtnOne.UseVisualStyleBackColor = true;
+            this.BtnOne.Click += new System.EventHandler(this.BtnOne_Click);
+            // 
+            // BtnTwo
+            // 
+            resources.ApplyResources(this.BtnTwo, "BtnTwo");
+            this.BtnTwo.Name = "BtnTwo";
+            this.BtnTwo.UseVisualStyleBackColor = true;
+            this.BtnTwo.Click += new System.EventHandler(this.BtnTwo_Click);
+            // 
+            // BtnThree
+            // 
+            resources.ApplyResources(this.BtnThree, "BtnThree");
+            this.BtnThree.Name = "BtnThree";
+            this.BtnThree.UseVisualStyleBackColor = true;
+            this.BtnThree.Click += new System.EventHandler(this.BtnThree_Click);
+            // 
+            // BtnFour
+            // 
+            resources.ApplyResources(this.BtnFour, "BtnFour");
+            this.BtnFour.Name = "BtnFour";
+            this.BtnFour.UseVisualStyleBackColor = true;
+            this.BtnFour.Click += new System.EventHandler(this.BtnFour_Click);
+            // 
+            // BtnFive
+            // 
+            resources.ApplyResources(this.BtnFive, "BtnFive");
+            this.BtnFive.Name = "BtnFive";
+            this.BtnFive.UseVisualStyleBackColor = true;
+            this.BtnFive.Click += new System.EventHandler(this.BtnFive_Click);
+            // 
+            // BtnSix
+            // 
+            resources.ApplyResources(this.BtnSix, "BtnSix");
+            this.BtnSix.Name = "BtnSix";
+            this.BtnSix.UseVisualStyleBackColor = true;
+            this.BtnSix.Click += new System.EventHandler(this.BtnSix_Click);
+            // 
+            // BtnSeven
+            // 
+            resources.ApplyResources(this.BtnSeven, "BtnSeven");
+            this.BtnSeven.Name = "BtnSeven";
+            this.BtnSeven.UseVisualStyleBackColor = true;
+            this.BtnSeven.Click += new System.EventHandler(this.BtnSeven_Click);
+            // 
+            // BtnEight
+            // 
+            resources.ApplyResources(this.BtnEight, "BtnEight");
+            this.BtnEight.Name = "BtnEight";
+            this.BtnEight.UseVisualStyleBackColor = true;
+            this.BtnEight.Click += new System.EventHandler(this.BtnEight_Click);
+            // 
+            // BtnNine
+            // 
+            resources.ApplyResources(this.BtnNine, "BtnNine");
+            this.BtnNine.Name = "BtnNine";
+            this.BtnNine.UseVisualStyleBackColor = true;
+            this.BtnNine.Click += new System.EventHandler(this.BtnNine_Click);
+            // 
+            // BtnZero
+            // 
+            resources.ApplyResources(this.BtnZero, "BtnZero");
+            this.BtnZero.Name = "BtnZero";
+            this.BtnZero.UseVisualStyleBackColor = true;
+            this.BtnZero.Click += new System.EventHandler(this.BtnZero_Click);
+            // 
+            // BtnPoint
+            // 
+            resources.ApplyResources(this.BtnPoint, "BtnPoint");
+            this.BtnPoint.Name = "BtnPoint";
+            this.BtnPoint.UseVisualStyleBackColor = true;
+            this.BtnPoint.Click += new System.EventHandler(this.BtnPoint_Click);
+            // 
+            // BtnDiv
+            // 
+            resources.ApplyResources(this.BtnDiv, "BtnDiv");
+            this.BtnDiv.Name = "BtnDiv";
+            this.BtnDiv.UseVisualStyleBackColor = true;
+            this.BtnDiv.Click += new System.EventHandler(this.BtnDiv_Click);
+            // 
+            // BtnMult
+            // 
+            resources.ApplyResources(this.BtnMult, "BtnMult");
+            this.BtnMult.Name = "BtnMult";
+            this.BtnMult.UseVisualStyleBackColor = true;
+            this.BtnMult.Click += new System.EventHandler(this.BtnMult_Click);
+            // 
+            // BtnSub
+            // 
+            resources.ApplyResources(this.BtnSub, "BtnSub");
+            this.BtnSub.Name = "BtnSub";
+            this.BtnSub.UseVisualStyleBackColor = true;
+            this.BtnSub.Click += new System.EventHandler(this.BtnSub_Click);
+            // 
+            // BtnSum
+            // 
+            resources.ApplyResources(this.BtnSum, "BtnSum");
+            this.BtnSum.Name = "BtnSum";
+            this.BtnSum.UseVisualStyleBackColor = true;
+            this.BtnSum.Click += new System.EventHandler(this.BtnSum_Click);
+            // 
+            // BtnEqual
+            // 
+            resources.ApplyResources(this.BtnEqual, "BtnEqual");
+            this.BtnEqual.Name = "BtnEqual";
+            this.BtnEqual.UseVisualStyleBackColor = true;
+            this.BtnEqual.Click += new System.EventHandler(this.BtnEqual_Click);
+            // 
+            // BtnC
+            // 
+            this.BtnC.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            resources.ApplyResources(this.BtnC, "BtnC");
+            this.BtnC.Name = "BtnC";
+            this.BtnC.UseVisualStyleBackColor = true;
+            this.BtnC.Click += new System.EventHandler(this.BtnC_Click);
+            // 
+            // BtnCE
+            // 
+            resources.ApplyResources(this.BtnCE, "BtnCE");
+            this.BtnCE.Name = "BtnCE";
+            this.BtnCE.UseVisualStyleBackColor = true;
+            this.BtnCE.Click += new System.EventHandler(this.BtnCE_Click);
+            // 
+            // FrmCalculator
+            // 
+            this.AcceptButton = this.BtnEqual;
+            resources.ApplyResources(this, "$this");
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
+            this.CancelButton = this.BtnC;
+            this.Controls.Add(this.BtnCE);
+            this.Controls.Add(this.BtnC);
+            this.Controls.Add(this.BtnEqual);
+            this.Controls.Add(this.BtnSum);
+            this.Controls.Add(this.BtnSub);
+            this.Controls.Add(this.BtnMult);
+            this.Controls.Add(this.BtnDiv);
+            this.Controls.Add(this.BtnPoint);
+            this.Controls.Add(this.BtnZero);
+            this.Controls.Add(this.BtnNine);
+            this.Controls.Add(this.BtnEight);
+            this.Controls.Add(this.BtnSeven);
+            this.Controls.Add(this.BtnSix);
+            this.Controls.Add(this.BtnFive);
+            this.Controls.Add(this.BtnFour);
+            this.Controls.Add(this.BtnThree);
+            this.Controls.Add(this.BtnTwo);
+            this.Controls.Add(this.BtnOne);
+            this.Controls.Add(this.LblOperation);
+            this.Controls.Add(this.TxtResult);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Name = "FrmCalculator";
+            this.Load += new System.EventHandler(this.FrmCalculator_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TextBox TxtResult;
+        private System.Windows.Forms.Label LblOperation;
+        private System.Windows.Forms.Button BtnOne;
+        private System.Windows.Forms.Button BtnTwo;
+        private System.Windows.Forms.Button BtnThree;
+        private System.Windows.Forms.Button BtnFour;
+        private System.Windows.Forms.Button BtnFive;
+        private System.Windows.Forms.Button BtnSix;
+        private System.Windows.Forms.Button BtnSeven;
+        private System.Windows.Forms.Button BtnEight;
+        private System.Windows.Forms.Button BtnNine;
+        private System.Windows.Forms.Button BtnZero;
+        private System.Windows.Forms.Button BtnPoint;
+        private System.Windows.Forms.Button BtnDiv;
+        private System.Windows.Forms.Button BtnMult;
+        private System.Windows.Forms.Button BtnSub;
+        private System.Windows.Forms.Button BtnSum;
+        private System.Windows.Forms.Button BtnEqual;
+        private System.Windows.Forms.Button BtnC;
+        private System.Windows.Forms.Button BtnCE;
+    }
+}
+

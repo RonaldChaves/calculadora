@@ -1,0 +1,47 @@
+﻿@model WebAppMVC.Models.CalculatorModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Index</h2>
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/calculator/index.js")" type="text/javascript"></script>
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>SumModel</legend>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.NumberOne)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.NumberOne)
+            @Html.ValidationMessageFor(model => model.NumberOne)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CalculatorList)
+        </div>
+        <div class="editor-field">
+            @Html.DropDownListFor(model => model.SelectedOperator, Model.CalculatorList, "Select an option")
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.NumberTwo)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.NumberTwo)
+            @Html.ValidationMessageFor(model => model.NumberTwo)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Result)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.Result, new { @disabled = "disabled", @readonly = "readonly" })
+        </div>
+        <p>
+            <input type="submit" value="Calculate with submit" />
+            <input type="button" value="Calculate with AJAX using POST" onclick="postResult();" />
+            <input type="button" value="Calculate with AJAX using GET" onclick="getResult();" />
+        </p>
+    </fieldset>
+}
