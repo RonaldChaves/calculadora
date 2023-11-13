@@ -13,7 +13,7 @@ Repositório virtual do projeto Calculadora
 * MVC
 * Forms
 * Console App
-* *Api's
+* Api's
 
 * Como executar testes: `Test`
 
