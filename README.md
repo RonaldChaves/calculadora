@@ -19,4 +19,4 @@ Repositório virtual do projeto Calculadora
 
 ### Com quem devo falar? ###
 
-* ronaldchaves7026@gmail.com
+* Aqui mesmo pelo GitHub. ;)
